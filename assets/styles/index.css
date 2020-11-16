@@ -37,7 +37,15 @@ body {
   column-gap: 5em;
   text-align: right;
 }
-
+.Navbar__Item input {
+  position: relative;
+  right: 20px;
+  box-sizing: unset;
+  font-family: Roboto;
+}
+.Navbar__Item i {
+  cursor: pointer;
+}
 .Navbar__Buttons li:hover {
   text-decoration: underline;
 }
@@ -81,7 +89,7 @@ body {
 .Articles__Item figure > img {
   max-width: 100%;
 }
-.Articles__Item figcaption > p{
+.Articles__Item figcaption > p {
   margin: 1em 0 1em 0;
 }
 
