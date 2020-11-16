@@ -49,6 +49,27 @@ body {
   background-size: cover; /* Resize the background image to cover the entire container */
   height: 500px;
 }
+.Container__First .Wrapper {
+  position: relative;
+  width: 20%;
+  top: 15%;
+  left: 10%;
+  text-align: center;
+}
+.Wrapper p {
+  margin: 1em 0 1em 0;
+}
+.Wrapper input {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(255, 255, 255, 0.6);
+  transition: ease all 0.5s;
+  border: none;
+}
+.Wrapper input:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255, 0.8);
+}
 
 .Container__Articles {
   display: grid;
@@ -60,13 +81,24 @@ body {
 .Articles__Item figure > img {
   max-width: 100%;
 }
+.Articles__Item figcaption > p{
+  margin: 1em 0 1em 0;
+}
 
 .Container__Second {
-  background-image: url("../img/banner1.jpg");
+  background-image: url("../img/banner3.png");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
-  height: 500px;
+  height: 350px;
+}
+
+.Container__Second .Wrapper {
+  position: relative;
+  width: 40%;
+  top: 15%;
+  left: 10%;
+  text-align: left;
 }
 .social {
   text-align: center;
@@ -125,6 +157,6 @@ footer {
   padding-bottom: 20px;
   margin: 0;
 }
-.footer-container a{
+.footer-container a {
   color: #ffffff;
 }
